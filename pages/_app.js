@@ -3,7 +3,7 @@ import Header from '../components/header';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="antialiased text-gray-700 mx-3">
+    <div className="antialiased text-gray-700">
     <Header></Header>
       <main className="my-6">
         <Component {...pageProps} />
